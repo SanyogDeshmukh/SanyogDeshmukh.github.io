@@ -96,7 +96,7 @@ form{
 	border-color: #ee4b08;
 	
 }
-.container2{
+.container{
 	display: grid;
 	grid-gap: 10px;
 	grid-template-columns: 1fr 1fr 1fr;
