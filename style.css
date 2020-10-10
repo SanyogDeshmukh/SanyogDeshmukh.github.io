@@ -102,3 +102,11 @@ form{
 	grid-template-columns: 1fr 1fr 1fr;
 
 }
+#div5 img{
+	width: 400px;
+	height: 400px;
+	transition: all 0.5s;
+}
+#div5 img:hover{
+	transform:scale(1.1);
+}
