@@ -1,0 +1,23 @@
+body{
+	background-color: black;
+}
+h1{
+	color:orange;
+	text-align: center;
+	
+}
+
+.container{
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+ .container img{
+	width: 400px;
+	height: 400px;
+	transition: all 0.5s;
+}
+ .container img:hover{
+	transform:scale(1.1);
+}
