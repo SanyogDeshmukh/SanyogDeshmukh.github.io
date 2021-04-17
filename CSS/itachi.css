@@ -1,0 +1,25 @@
+body{
+	background: url("../HTML/images/index/carousel1.png") no-repeat fixed center;
+
+	
+}
+h1{
+	text-align: center;
+	color:white;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+ .container img{
+	width: 400px;
+    height: 400px;
+	margin: 15px;
+	transition: all 0.5s;
+}
+ img:hover{
+	transform:scale(1.1);
+}
