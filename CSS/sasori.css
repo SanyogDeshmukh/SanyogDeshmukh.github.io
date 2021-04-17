@@ -1,0 +1,25 @@
+body{
+	background: url("../HTML/images/index/OfficialAkatsuki.jpg") no-repeat fixed center;
+
+	
+}
+h1{
+	text-align: center;
+	color:#e31010;
+}
+.container{
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+ .container img{
+	width: 400px;
+    height: 400px;
+	margin: 15px;
+	transition: all 0.5s;
+}
+ img:hover{
+	transform:scale(1.1);
+}
