@@ -1,0 +1,27 @@
+body{
+	background: url("../HTML/images/index/akatsuki.png") no-repeat fixed center ;
+	
+}
+h1{
+	color:white;
+	text-align: center;
+	
+}
+
+.container{
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+
+
+}
+ .container img{
+	width: 400px;
+	height: 400px;
+	margin: 15px;
+	transition: all 0.5s;
+}
+ .container img:hover{
+	transform:scale(1.1);
+}
